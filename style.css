@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0;
+    font-family: Gill Sans, Helvetica, Arial, sans-serif;
     
 }
 
@@ -28,16 +29,71 @@ aside {
     width: auto;
 }
 
+.title h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 main {
     width: 63%;
-    background-color: #eee;
+    background-color: rgb(250, 248, 248);
 }
 
 #info {
-    background-color: #eee;
+    background-color: rgb(250, 248, 248);
     padding: 100px 160px 50px 50px;
+}
+
+#info p {
+    font-weight: bold;
 }
 
 .form-enter {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 160px 50px 50px;
+    box-shadow: 3px 3px 3px rgb(139, 139, 139);
+}
+
+.form-enter p {
+    font-weight: bold;
+    margin:0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: .7em;
+}
+
+.sending {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 160px 50px 50px;
+}
+
+.sending button {
+    width: 220px;
+    height: 50px;
+    background-color: #225522;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px #d1d0d0;
+}
+
+.sending p {
+    font-weight: bold;
 }
